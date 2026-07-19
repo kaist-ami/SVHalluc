@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+
+# Downloaded datasets and media should remain on Hugging Face, not in Git.
+data/
+*.mp4
+*.mov
+*.avi
+*.mkv
+samples.json
+
+# Hugging Face cache metadata.
+.cache/
+.huggingface/
